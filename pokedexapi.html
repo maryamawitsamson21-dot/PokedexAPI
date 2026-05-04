@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <meta charset="UTF-8">
+        <title>Pokedex API</title>
+
+    </head>
+    <body  class="text-green-700 bg-black">
+        <div class="flex flex-col items-center  space-y-8 w-screen min-h-screen">
+            <h1 class="mt-8 ">POKEDEX API </h1>
+            <div class="flex bg-gray-600"><input id="input" class="bg-gray-500"type="text" placeholder="Enter Text">
+            <img id="btn" class="w-8" src="img.png\search_9373594.png" alt="search img">  </div>
+            <div id="photo">
+
+                <img id="doll" src="" >
+               <h4 id="type"></h4>
+                <p id="stats"></p>
+                <p id="error"></p>
+             </div>
+        </div>
+        <script type= module src="./api.js"></script>
+        <script type= module src="./ui.js"></script>
+    </body>
+
+</html>

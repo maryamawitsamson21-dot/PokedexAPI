@@ -1,14 +1,26 @@
 {
-  "name": "pokedex-api",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "pokedexapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "devDependencies": {
+     "vite": "^8.2.2"
+  },
   "scripts": {
-    "dev": "vite",
+   "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^6.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryamawitsamson21-dot/PokedexAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+    "type": "module",
+  "bugs": {
+    "url": "https://github.com/maryamawitsamson21-dot/PokedexAPI/issues"
+  },
+  "homepage": "https://github.com/maryamawitsamson21-dot/PokedexAPI#readme"
 }

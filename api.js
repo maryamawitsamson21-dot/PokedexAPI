@@ -3,7 +3,7 @@ export async function api(name) {
    
     
   
-   const data= await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+    const data= await fetch(`${import.meta.env.VITE_APIKEY}${name}`)
    if(!(data.ok)){
    
     return
